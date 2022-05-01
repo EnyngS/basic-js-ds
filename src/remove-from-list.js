@@ -23,13 +23,13 @@ const { NotImplementedError } = require("../extensions/index.js");
  * }
  */
 
-class ListNode {
-  constructor(x) {
-    this.value = x;
-    this.next = null;
-  }
-}
 function removeKFromList(l, k) {
+  class ListNode {
+    constructor(x) {
+      this.value = x;
+      this.next = null;
+    }
+  }
   let arr = [];
   let tmp = l;
   while (tmp) {
